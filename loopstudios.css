@@ -1,0 +1,125 @@
+body { margin: 0px;
+       background: white;
+       font-family: 'Josefin Sans', sans-serif;}
+
+.card1{ width: 83.5%;
+        height: 425px;
+        padding: 80px 120px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../CARDS_II/GALLERY/image\ copy\ 2.png);}
+
+.logo{ color: white;
+       font-size:45px;
+       font-weight: 600;
+       margin-top: 5px;
+       margin-left: 40px;}
+
+div ul{gap: 40px;
+       margin-right: 40px;
+       display: flex;
+       color: white; 
+       list-style: none;}
+
+.first_row{ display: flex;
+            justify-content:space-between;}
+
+.bottom_row_text{ width: 550px;
+                  padding: 40px;
+                  margin-left: 40px;
+                  margin-bottom: 70px;
+                  border: 2px solid white;}
+
+.bottom_row_text h1{ color: white;
+                     font-size: 60px;
+                     font-weight: 300;
+                     line-height: 1.1;
+                     letter-spacing: 2px;
+                     font-family: 'Josefin Sans', sans-serif;}
+
+.card2{width: 83.5%;
+       margin: 105px;
+       position: relative;
+       background-color:white;}
+
+.image img{width: 65%;
+           display: block;}
+
+.content{right: 0%;
+         width: 450px;
+         bottom: -80px;
+         color: black;
+         position: absolute;
+         background:white;
+         margin: 50px 25px 10px 90px;
+         padding:60px;
+         font-family: 'Josefin Sans', sans-serif;}
+
+.content h1{ font-size: 40px;
+             font-weight: 300;
+             letter-spacing: 2.9px;}
+
+.content p{ color: gray;
+            line-height: 1.5;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 1px;}
+
+.card3{ width: 83.5%;
+        font-size: 25px;
+        font-weight: 100;
+        margin: 150px auto;
+        background-color:white;
+        justify-content:space-between ;
+        font-family: 'Josefin Sans', sans-serif;}
+
+.hero_text{ display: flex;
+            align-items: center;
+            margin-bottom: 60px;
+            justify-content: space-between;}
+
+.hero_text h2{ font-size: 40px;
+               font-weight: 300;
+               letter-spacing: 4px;}
+
+.see-all{ cursor: pointer;
+          padding: 15px 15px;
+          margin-left: 715px;
+          background: white; 
+          margin-bottom: 25px;
+          letter-spacing: 4px;
+          border: 2px solid black;}
+
+.see-all:hover{ color: white;
+                background-color: black;}
+
+.creations_card{ left: 20px;
+                 margin: 120px;
+                 font-size: 28px;
+                 position: absolute;
+                 letter-spacing: 2px;}
+
+
+
+
+
+
+
+
+                 
+.last-blkcard{ background-color: black;}
+
+.icons{gap: 40px;
+       display: flex;
+       color: white; 
+       list-style: none;
+       margin-right: 40px;}
+
+
+
+ 
+
+
+
+
+

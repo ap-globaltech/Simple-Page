@@ -1,0 +1,108 @@
+body{display: flex;
+     height: 100vh;
+     align-items: center;
+     background: #c6d7e8;
+     justify-content: center;}
+  
+/* MAIN CONTAINER */
+.container{width: 850px;
+           display: flex;
+           overflow: hidden;
+           border-radius: 27px;
+           background: #f9f5ef;}
+
+/* LEFT SIDE */
+.left{width: 350px;
+      background: #f9f5ef;
+      padding: 35px;}
+
+.header {display: flex;
+         align-items: center;
+         margin-bottom: 25px;
+         justify-content: space-between;}
+
+.header h3{font-size: 20px;
+           font-weight: 700;}
+
+.header a{color: #777;
+          font-size: 14px;
+          margin-left:auto;}
+
+/* FORM */
+.form-group{margin-bottom: 18px;}
+
+label{display: block;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 6px;}
+
+.input-wrapper{display: flex;
+               overflow: hidden;
+               border-radius: 6px;
+               background: white;
+               border: 1px solid #ccc;}
+
+.input-wrapper input{width: 100%;
+                     border: none;
+                     padding: 10px;
+                     outline: none;}
+
+.prefix,.suffix{color: #444;
+                font-size: 13px;
+                padding: 10px 12px;
+                background: #ececec;}
+
+.row {gap: 12px;
+      display: flex;}
+
+/* RADIO */
+.radio-box{gap: 10px;
+           display: flex;
+           padding: 10px;
+           cursor: pointer;
+           margin-top: 8px;
+           border-radius: 6px;
+           align-items: center;
+           border: 1px solid #ddd;}
+
+.radio-box input {accent-color: #c9d800;}
+
+/* BUTTON */
+.btn{gap: 10px;
+     width: 73%;
+     border: none;
+     display: flex;
+     cursor: pointer;
+     font-weight:bold;
+     margin-top: 20px;
+     padding: 12px 25px;
+     align-items: center;
+     border-radius: 30px;
+     background: #c9d800;
+     transition: 0.3s ease;
+     justify-content: center;}
+
+.btn i{font-size: 16px;}
+.btn:hover {background: #b0be00;}
+
+/* RIGHT SIDE */
+.right{flex: 1;
+       display: flex;
+       padding: 40px;
+       color: white;
+       border-radius: 0;
+       align-items: center;
+       justify-content: center;
+       border-bottom-left-radius: 40px;
+       background: linear-gradient(135deg, #0e2a3b, #0b1f2e);}
+
+.result-content{padding-top: 40px;
+                text-align: center;}
+.result-content img{width: 95px;
+                    margin-bottom: 30px;}
+.result-content h3{font-size: 18px;
+                   margin-bottom: 12px;}
+
+.result-content p{font-size: 13px;
+                  line-height: 1.5;}
+

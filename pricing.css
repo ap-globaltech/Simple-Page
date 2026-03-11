@@ -1,0 +1,82 @@
+body{
+    background-color: aliceblue;
+}
+h3{
+    display: block;
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.card{
+    background-color: white;
+ 
+    width: 400px;
+    border-radius: 10px;
+    margin:auto;
+    height: 300px;
+    padding: 15px;
+    
+
+}
+.right{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+.right sup{
+    color: black;
+}
+.firstrow{
+    display: flex;
+    width: 400px;
+    margin-bottom:50px;
+}
+.left{
+    width:60%
+}
+.thirdrow{
+    display: flex;
+    font-size: 10px;
+    width:300px;
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.label{
+    margin-left: 10px;
+}
+.button{
+    margin-left: 10px;
+}
+.button1{
+    font-size: 10px;
+    border-radius: 100px;
+    margin-left: 10px;
+    color: orange;
+    
+}
+.fourthrow{
+    display:flex;
+    width:400p
+}
+.button2{
+    border-radius :40px;
+    background-color:darkblue;
+    color: white;
+    width: 100px;
+    height: 30px;
+
+    padding: 10px;
+
+    
+    }
+.content{
+    display: flex;
+    font-size: 10px;
+    padding-bottom: 150px;
+    margin-left: 60px;
+    
+}
